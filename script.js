@@ -8,7 +8,7 @@ function getComputerChoice() {
 // Determine winner function
 function determineWinner(userChoice, computerChoice) {
   if (userChoice === 'bomb') {
-    return "You used the secret cheat code! You win!";
+    return "💣 You dropped the bomb! Cheater alert! But I still love you 😜❤️";
   }
 
   if (userChoice === computerChoice) {
